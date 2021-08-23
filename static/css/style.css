@@ -1,0 +1,52 @@
+:root{
+    --base-color:magenta;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url('../fonts/Inter-VariableFont_slntwght.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-weight: bold;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body{
+    width: 100vw;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    min-height:400px;
+    background: url("../images/pexels-vitaly-vlasov-1655817-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header .logo{
+    font-family: Roboto;
+    font-weight: bold;
+}
