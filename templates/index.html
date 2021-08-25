@@ -6,37 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/49b2038d80.css">
+    <link rel="stylesheet" href="../static/css/icomoon.css">
     <link rel="stylesheet" href="../static/js/jquery-3.6.0.min.js">
     <link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <a href="#"><h2>J2K <i class="fa fa-photo"></i></h2></a>
+        <div class="head">
+            <div class="logo">
+                <a href="#"><h2>J2K</h2><small>Entertainment</small></a>
+            </div>
+            <div class="nav-toggle">
+                <i class="icon-align-justify"></i>
+            </div>
+            <nav class="navbar">
+                <li> <a href="">Services</a></li>
+                <li><a href="">Works</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Book</a></li>
+            </nav>
         </div>
-        <div class="nav-toggle">
-            <i class="fa fa-bars"></i>
-        </div>
-        <nav class="navbar">
-            <li> <a href="">Services</a></li>
-            <li><a href="">Works</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Book</a></li>
-        </nav>
         <div class="design">
             <div class="hire">
                 Hire Us <i class="fa fa-arrow-right"></i>
             </div>
-            <div class="transparent">
-                
+            <div class="trans">
+                <h1>We Make That Special Day Memorable</h1>
             </div>
         </div>
     </header>
 
     <div class="sidebar">
-        <i class="fa fa-times"></i>
-        <div class="mobilenav">
+        <div class="nav">
             <a href="#">Services</a>
             <a href="#">Works</a>
             <a href="#">About</a>
@@ -46,11 +48,92 @@
     </div>
 
     <main>
+        <section class="services">
+            <h2>Services We Offer</h2>
+            <div class="card-desc">
+                <div  class="img-wrap"> <img src="../static/images/pexels-mohamed-almari-368893.jpg" alt="" class="img-fluid"></div>
+                <h3>Photography</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptates, repellendus nostrum similique dicta nulla!</p>
+                <ul class="unorderd-list">
+                    <li><i class="icon-checkmark"></i> Professional shots</li>
+                    <li><i class="icon-checkmark"></i> Diverse gadget</li>
+                    <li><i class="icon-checkmark"></i> Quality results</li>
+                </ul>
+            </div>
+            <div class="card-desc">
+                <div  class="img-wrap"> <img src="../static/images/pexels-kyle-loftus-3379934.jpg" alt="" class="img-fluid"></div>
+                <h3>Videography</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita odit, corporis molestias nemo at omnis maxime, soluta voluptatem quas, dignissimos odio? Harum quidem nam ducimus.</p>
+                <a href="#" class="btn-lnk" role="button">See More <i class="icon-arrow-right2"></i> </a>
+                </div>
+            </div>
+            <div class="card-desc">
+                <div  class="img-wrap"> <img src="../static/images/pexels-dmitry-demidov-3784566.jpg" alt="" class="img-fluid"></div>
+                <h3>Sound Rentals</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laboriosam ea natus quidem sequi maiores modi amet est. Mollitia, atque.</p>
+            </div>
+            <div class="card-desc">
+                <div  class="img-wrap"> <img src="../static/images/pexels-dmitry-demidov-3783471.jpg" alt="" class="img-fluid"></div>
+                <h3>Music Production</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus expedita in omnis corrupti architecto inventore reiciendis laudantium, accusantium vitae pariatur quo ea, dolorem magni minima.</p>
+            </div>
+        </section>
+        <section class="section works">
+            <h2>Our Excellent Works</h2>
+            <div class="video">
+                <video width="100%" height="auto" autoplay muted>
+                    <source src="../static/video/Network - 12716.mp4" type="video/mp4">
+                </video>
+                <div class="iframe-container">                    
+                        <iframe width="853" height="476" src="https://www.youtube.com/embed/9YffrCViTVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <a href="#" class="btn-lnk" role="button">See More</a>
+        </section>
         
+        <section class="contact">
+            <h1>Contact Us Right Away</h1>
+            <div class="cform">
+                <form action="">
+                    <div class="form-group">
+                        <input type="text"  name="title" id="title" placeholder="Title">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" required id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" name="phone" id="phone" required placeholder="Enter Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="text" id="text" placeholder="description" cols="30" rows="10" aria-describedby="descp"></textarea>
+                        <small class="text-muted" id="desc">Enter the reason for the message and what services you're want us to offer</small>
+                    </div>
+                    <div class="custom-date">
+                        <input type="date" name="date" id="date" aria-describedby="date-desc">
+                        <small class="text-muted" id="date-desc">Enter date which you scheduled</small>
+                    </div>
+                </form>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ullam expedita numquam ducimus laborum placeat.</p>
+            <button type="button">
+                Email Us
+            </button>
+        </section>
+        <div class="section about">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eaque tempora amet quia excepturi non delectus facere unde? Explicabo eius, deserunt iste similique amet fuga? Quidem pariatur illo molestias blanditiis eum. Odio illo, modi adipisci itaque eveniet fugiat harum, voluptate tempore quod fugit amet id officia ipsam nostrum quas quasi!</p>
+        </div>
     </main>
-    <footer>
 
+    <footer>
+        <div class="socials">
+            <a href="#"><i class="icon-twitter"></i></a>
+            <a href="#"><i class="icon-instagram"></i></a>
+            <a href="#"><i class="icon-youtube"></i>
+            </a><a href="#"><i class="icon-facebook"></i></a>
+        </div>
+        <div class="p">&copy;2021 powered by routebirds </div>
     </footer>
     <script src="../static/js/jquery-3.6.0.min.js"></script>
+    <script src="../static/js/sidebar.js"></script>
 </body>
 </html>
