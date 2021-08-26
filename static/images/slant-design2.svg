@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
-   sodipodi:docname="slant-design2.svg"
+   sodipodi:docname="slant-design3.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,10 +25,10 @@
      showgrid="false"
      showborder="true"
      inkscape:showpageshadow="true"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      inkscape:zoom="0.31064685"
-     inkscape:cx="1559.6489"
-     inkscape:cy="1685.1933"
+     inkscape:cx="1002.7464"
+     inkscape:cy="510.22568"
      inkscape:window-width="1294"
      inkscape:window-height="704"
      inkscape:window-x="72"
@@ -47,6 +47,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(8.3032483,-18.47628)">
+    <rect
+       style="fill:#ffffff;stroke-width:0.264583"
+       id="rect969"
+       width="400.35571"
+       height="484.67239"
+       x="-8.3569489"
+       y="19.07608" />
     <path
        id="rect110"
        style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.229082"
