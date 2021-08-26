@@ -162,8 +162,12 @@ header .nav-toggle{
         margin-top: 5px;
         background-color: var(--base-color);
         box-shadow: -2px 2px 0px rgba(0,0,0,0.5);
+        transition: all 0.5s;
     }
 
+    .navbar li:last-child a:hover, .navbar li:last-child a:active{
+        box-shadow: 0px 0px rgba(0,0,0,0);
+    }
     .design{
         background: transparent;
         min-height: 0px;
@@ -423,6 +427,7 @@ main{
     background-color: #fff;
     inset: 0;
     margin: auto;
+    display: none;
     height: 500px;
     width: 90%;
     border-radius: 5px;
@@ -474,6 +479,13 @@ main{
     font-weight: bold;
     box-shadow: -1px 2px 4px rgba(0,0,0,1),
                 -2px 3px 0px rgba(0,0,0,0.5);
+
+    transition: all 0.4s;
+}
+
+.contact button:hover, .contact button:active{
+    box-shadow: none;
+    border: 1px solid #1e90ff;
 }
 @media screen and (min-width:700px) {
     .contact button{
@@ -575,11 +587,9 @@ footer .p {
 }
 
 /* shadow */
+
 .shadow{
     display: none;
-}
-.shadow{
-    display: block;
     position: fixed;
     opacity: 0.2;
     background-color: #000;
